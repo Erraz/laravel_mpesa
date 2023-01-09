@@ -1,4 +1,6 @@
-# Laravel Mpesa Package
+# Laravel 9 Mpesa Package
+
+Updated the package to Support Laravel 9
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/414b845bd4ec44a1894d4f7a7499c227)](https://app.codacy.com/app/gathuku/laravel_mpesa?utm_source=github.com&utm_medium=referral&utm_content=gathuku/laravel_mpesa&utm_campaign=Badge_Grade_Dashboard)
 [![Latest Version](https://img.shields.io/github/release/gathuku/laravel_mpesa.svg?style=flat-square)](https://github.com/gathuku/laravel_mpesa/releases)
@@ -25,7 +27,7 @@ You are looking at it. But we've also got [beautiful, fully navigable docs](http
 You can install this awesome package via composer
 
 ```sh
-composer require gathuku/laravelmpesa
+composer require erraz/laravelmpesa
 ```
 If you're using Laravel >=5.5, this is all you have to do.
 
@@ -33,11 +35,11 @@ Should you still be on version 5.4 of Laravel, the final steps for you are to ad
 
 Add a new line to the `providers` array:
 ```php
- Gathuku\Mpesa\MpesaServiceProvider::class,
+ Erraz\Mpesa\MpesaServiceProvider::class,
 ```
 And optionally add a new line to the `aliases` array:
 ```php
-'Mpesa' => Gathuku\Mpesa\Facades\Mpesa::class,
+'Mpesa' => Erraz\Mpesa\Facades\Mpesa::class,
 ```
 
 ### Happy Coding :tada: :100:
