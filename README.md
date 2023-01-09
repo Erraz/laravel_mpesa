@@ -1,4 +1,4 @@
-# Laravel 9 Mpesa  V2 Package
+# Laravel 9 Mpesa   Package
 
 Updated the package to Support Laravel 9
 
