@@ -35,11 +35,11 @@ Should you still be on version 5.4 of Laravel, the final steps for you are to ad
 
 Add a new line to the `providers` array:
 ```php
- Erraz\Mpesa\MpesaServiceProvider::class,
+ Gathuku\Mpesa\MpesaServiceProvider::class,
 ```
 And optionally add a new line to the `aliases` array:
 ```php
-'Mpesa' => Erraz\Mpesa\Facades\Mpesa::class,
+'Mpesa' => Gathuku\Mpesa\Facades\Mpesa::class,
 ```
 
 ### Happy Coding :tada: :100:
